@@ -8,4 +8,4 @@ Também usei algumas dependências bem interessantes. Uma delas foi o "alertfy",
 uma ferramenta de estilização de caixas de alertas, dando uma opção mais fácil para criação de mensagens de erro ou sucesso para o seu site.<br>
 <br>
 Dificuldades no desenvolvimento:<br>
-Criar a responsividade e escolher os as cores que iriam compôr o site
+Criar a responsividade e escolher as cores/design que iriam compôr o site.
