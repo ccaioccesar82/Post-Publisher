@@ -1,0 +1,33 @@
+<%- include('./head.ejs') %>
+
+<body>
+<%- include('./nav.ejs')  %> 
+
+<div class="grid row mx-5 my-5">
+
+
+    <% if(posts)  {%> 
+
+        <% posts.forEach(post =>{ %>
+        
+<div class="background-post col ">
+    <h2><%= post.title %></h2>
+    <p><%= post.post %></p>
+    <p><a class="btn btn-secondary" role="button" href="/postcreate/<%= post._id %>">Editar</a><a class="btn btn-secondary ml-4" role="button" href="/delete/<%= post._id %>">Excluir</a></p>
+    
+    </div>   
+        
+  
+        <% }) %>
+        
+        <% } %>   
+        
+
+
+</div>
+
+
+<%- include('./footer.ejs') %>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+background-image: url('../images/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+.nav-bar{
+
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+
+    font-size: 30px;
+margin-left: 20%;
+color:rgba(170, 25, 170);
+
+}
+
+
+
+.menu li{
+
+font-size: 15px;
+    list-style: none;
+    outline: none;
+    float: left;
+    margin-top: 7%;
+  
+}
+
+.menu a{
+    text-decoration: none;
+color: rgb(39, 39, 39);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+   transition: 0.3s linear;
+   cursor: pointer;
+}
+
+.menu a:hover {
+
+    background-color: rgba(255, 255, 255, 0.8);
+  
+}
+
+
+.btn{
+
+    background-color:rgba(170, 25, 170);
+    color: white;
+    }
+
+    .label{
+
+        color:white;
+    }
+
+    .background-post{
+
+background-color: rgba(255, 255, 255, 0.5);
+padding: 30px;
+border-radius: 2px;
+transition: transform 200ms ease-in-out;
+
+    }
+
+.background-post:hover{
+
+    transform: scale(1.05);
+}
+
+    .grid{
+
+        display:grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+
+    }
+
+    
